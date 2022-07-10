@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+   <!-- Nombre: Samuel Medina
+    ID: 00000185835
+    PAGINA: contactarme -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactame</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="flex-center"> 
+        <h1>
+            Contactame
+        </h1>
+    </header>
+
+    <nav class="flex-center"> 
+        <a class="flex-center bold" href="./index.html">Index</a>
+        <a class="flex-center bold" href="./musica.html">Musica</a>
+        <a class="flex-center bold" href="./redesSociales.html">Redes Sociales</a>
+        <a class="flex-center bold" href="./contactame.html">Contactame</a>
+        <a class="flex-center bold" href="./aficiones.html">Beats a la venta</a>
+    </nav>
+
+    <main class="flex-center">
+
+        <form class="contac">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre..."/>
+                
+            
+            <label for="direccion">Direccion:</label>
+            <input type="text" id="direccion" placeholder="Escribe tu direccion..."/>
+                
+
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Escribe tu correo..."/>
+                
+
+            
+            <label for="ocupacion">Ocupacion:</label>
+            <input type="text" id="ocupacion" placeholder="Escribe tu ocupacion..."/>
+                
+
+            
+            <label for="aficiones">Aficiones:</label>
+            <input type="text" id="aficiones" placeholder="Escribe tus aficiones..."/>
+            
+
+        
+            <label for="region">Region:</label>
+            <select name="region" id="region">
+                <option value="lan">Latino America Norte</option>
+                <option value="las">Latino America Sur</option>
+                <option value="usa">USA</option>
+                <option value="eur">Europa</option>
+                <option value="asi">Asia</option>
+                <option value="aus">Australia</option>
+            </select>
+    
+
+            <section>
+                <label>
+                    <input type="checkbox">
+                    <span>Recibir notificaciones</span>
+                </label>
+            </section>
+
+        
+                <label for="reset">Restablecer campos:</label>
+                <input type="reset" id="reset" placeholder="Restablecer"/>
+            
+
+        
+                <label for="submit">Aceptar Formulario:</label>
+                <input type="submit" id="submit" placeholder="Enviar"/>
+        </form>
+       
+    </main>
+
+    <footer class="flex-center bold">
+        DT Records Ⓒ
+    </footer>
+
+</body>
+</html>
